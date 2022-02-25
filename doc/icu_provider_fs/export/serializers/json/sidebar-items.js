@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["StyleOption",""]],"struct":[["Options","Options bag for initializing a [`serde_json::Serializer`]."],["Serializer","A serializer for JavaScript Object Notation (JSON)."]]});

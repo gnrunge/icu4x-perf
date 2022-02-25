@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Error","An Error type specifically for the `Serializer` that doesn’t carry filenames"]],"mod":[["bincode",""],["json",""],["postcard",""]],"trait":[["AbstractSerializer","A simple serializer trait that works on whole objects."]]});
