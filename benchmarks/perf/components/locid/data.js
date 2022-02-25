@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630011673754,
-  "repoUrl": "https://github.com/unicode-org/icu4x",
+  "lastUpdate": 1645825308222,
+  "repoUrl": "https://github.com/gnrunge/icu4x",
   "entries": {
     "Rust Benchmark": [
       {
@@ -11801,6 +11801,78 @@ window.BENCHMARK_DATA = {
             "name": "locale/overview",
             "value": 4836,
             "range": "± 927",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "distinct": true,
+          "id": "8d518709289f4e0c7db8240264f9bcd6bc15ff7f",
+          "message": "Remove commented-out parts, more testing.",
+          "timestamp": "2022-02-25T13:10:57-08:00",
+          "tree_id": "8527bd045d571f8cec5b0f456cca0811fc890be7",
+          "url": "https://github.com/gnrunge/icu4x/commit/8d518709289f4e0c7db8240264f9bcd6bc15ff7f"
+        },
+        "date": 1645824008968,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "langid/overview",
+            "value": 2207,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "locale/overview",
+            "value": 4102,
+            "range": "± 5",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "distinct": true,
+          "id": "0639bbf0c72c886c38e3f881021592ed2023beae",
+          "message": "Debug 2",
+          "timestamp": "2022-02-25T13:33:15-08:00",
+          "tree_id": "85e4f56c0530b4559fd44920ae6437d285186917",
+          "url": "https://github.com/gnrunge/icu4x/commit/0639bbf0c72c886c38e3f881021592ed2023beae"
+        },
+        "date": 1645825305492,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "langid/overview",
+            "value": 2203,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "locale/overview",
+            "value": 4044,
+            "range": "± 7",
             "unit": "ns/iter"
           }
         ]
